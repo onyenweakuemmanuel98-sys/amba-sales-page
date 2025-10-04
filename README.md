@@ -9,9 +9,9 @@ A clean, responsive, and SEO-friendly landing page built with HTML and CSS for t
 - Easy to edit and customize
 
 ### 🌍 Live Demo
-[https://yourusername.github.io/amba-sales-page/](https://yourusername.github.io/amba-sales-page/)
+[https://emmanuelbonifaceselar.github.io/amba-sales-page/](https://emmanuelbonifaceselar.github.io/amba-sales-page/)
 
 ---
 
 **Built by:** Onyenweaku Emmanuel  
-📞 [WhatsApp](https://wa.me/2347064541907)
+📞 [WhatsApp](https://wa.me/2349063196843)
