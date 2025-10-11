@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    color: #333;
+}
+header {
+    background-color: #1F3BB3;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+header h1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 48px;
+    margin: 0; 
+}
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+section {
+    padding: 40px 20px;
+    text-align: center;
+    color: #cda609;
+}
+.highlight {
+    color: #FFC107;
+    font-weight: bold;
+}
+.benefits {
+    display:grid;
+   grid-template-columns: repeat(auto-fit,(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.benefits h3 {
+    color: #e6b800;
+}
+.benefit-box {
+    background: #fff;
+    font-size: 20px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.cta {
+    margin: 40px 0;
+}
+.CTA {
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cta_btn {
+   background: #FFC107;
+   border: none;
+   padding: 15px 30px;
+   font-size: 15px;
+   cursor: pointer;
+   text-align: center;
+   font-weight: bold;
+   margin-top: 25px;
+   color: #FFFFFF;
+   border-radius: 12px;
+   cursor: pointer;
+   box-shadow: 0 6px 12px rgba(31, 59, 179, 0.3);
+   transition: all 0.3s ease;
+   opacity: 0;
+   animation: fadeIn 1.5s ease-out 1.3s forwards, pulse 2s infinite 2s;
+}
+.cta_btn :hover {
+    background: #160c89;
+      transform: scale(1.05);
+    }
+img, iframe {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+footer {
+    background-color: #1F3BB3;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.testimonial {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.video {
+   
+    }
+
+.testimonial-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.testimonial-box video {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.testimonial-box p {
+    font-style: italic;
+    color: #555;
+}
+.testimonial-box h4 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1F3BB3;
+}
+
+
+
+whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366;.w
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    animation: pulse 2.5s infinite;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+    background-color: #20BD5A;
+  }
+
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(31, 59, 179, 0.5); }
+    50% { transform: scale(1.05); box-shadow: 0 0 20px 10px rgba(31, 59, 179, 0.2); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(31, 59, 179, 0.5); }
+  }
+
+  @media (max-width: 600px) {
+    .headline { font-size: 22px; }
+    .subtext { font-size: 16px; }
+    .cta-btn { font-size: 16px; padding: 12px 24px; }
+    .whatsapp-float {
+      width: 50px;
+      height: 50px;
+      font-size: 26px;
+      bottom: 15px;
+      right: 15px;
+    }
+
+
+    </style>
+    <title>Affiliate Marketing Beginners Academy </title>
+    <meta name="description" content="Learn how to make ar least $500 per month with Affiliate Marketing.
+    AMBA is beginner-friendly,affordabele and easy to from start from your phone.">
+    <meta name="keywords" content="affiliate Marketing Nigeria,legit online businesses,how to make money online
+    how to start affiliate marketing ,scerets of affiliate marketing,
+    how to make sales as an affiliate,how to start affiliate marketing as a beginner, AMBA ,how to earn at least 500 
+    thousand naira with affiliate marketing">
+    <meta name="author" content="Affiliate Marketing Beginners Academy"> 
+    <meta property="og:title" content="Affiliate Marketing Beginners Academy  (AMBA)">
+    <meta property="og:description" content="step-by-step training to help beginners make $500 per month
+    with affiliate marketing">
+    <meta property="og:image" content="https://emmanuel boniface selar.com">
+    <meta property="og:type" content="website">
+    /* <link rel="stylesheet" href="./style .CSS"> */
+    <body>
+    <header>
+        <h1>Affiliate Marketing Beginners Academy (AMBA)</h1>
+        <p>
+            Learn how to make your first <span class="highlight">$500 in a month </span>with Affiliate 
+            Marketing 
+        </p> 
+    </header>
+   <section> <h2>Why Join AMBA</h2></section>
+   <div class="benefits"> 
+     <div class="benefit-box">
+        <h3>📌Beginner-Frendly</h3>
+        <p>No experience? No poblem! step-by-step lessons for beginners.</p>
+     </div>
+     <div class="benefit-box">
+        <h3> 💡 Earn While Yoy Learn</h3>
+        <p>Products are created once but sold over and over again. </p>
+    </div>
+     <div class="benefit-box" >
+           <h3>📱Learn Anywhere</h3>
+           <p> Access the course on your phone or laptop and learn at your convenience</p>
+    </div>
+     <div class="benefit-box" >
+            <h3> ⏳ Limited Offer</h3>
+            <p>Join today for <span class="highlight">FREE</span> offer ends in 72 hours!</p>
+     </div>
+   </div>
+   <section>
+    <h2>
+       See what affiliate marketing can do for you
+    </h2>
+   <div class="video">
+    <div style="position: relative;padding-bottom: 56.25%;height: 0;
+    overflow: hidden;max-width: 100%;">
+    <iframe 
+    style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;
+    border: 0;" allowfullscreen loading="lazy">what is this</iframe>
+
+    <video id="myvideo" src="video 5.mp4" controls autoplay 
+    ></video>
+   </div>
+<video  id="myvideo" controls autoplay fit to screen src="video 2.mp4"></video>
+</div>
+   </div>
+    <button class="sound-btn" onclick="unmuteVideo"></button>
+    <video src="video 7.mp4" controls autoplay></video>
+<script>
+    function unmuteVideo() {
+        const video = 
+        document.getElementById (myVideo)
+        video.muted = false ;
+        video.play ()
+    }
+</script>
+</div>
+    <img src="img 6.jpg" alt="">
+<img src="img 12.jpg" alt="">
+<img src="img 11.jpg" alt="">
+<br>
+<br>
+<br>
+<button class="cta_btn" onclick="window.open('https://wa.me/+2347064541907?text=Hi%2C%20I%20want%20to%20start%20affiliate%20marketing', '_blank')">
+    Join AMBA Now
+  </button>
+   </section>
+  
+
+</body>
+</html>
